@@ -38,7 +38,7 @@ Cross-platform.|
 15. Top 5 players in Spain?
 
 ## Dataset for the project:
-we took Dataset from kaggle.com
+We took Dataset from kaggle.com
 
 ## Use-case UML diagram:
-https://github.com/Nematzhon/AbayaPravda/blob/main/dataset/AbayaPravda-UseCase-UML.png
+![alt text](https://github.com/Nematzhon/AbayaPravda/blob/main/dataset/AbayaPravda-UseCase-UML.png)
