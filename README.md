@@ -27,4 +27,4 @@ IOS mobile app , Swift, SQLite
 https://github.com/RaulDavrishev/MVST osilardiki siakti jazshi aibar 
 
 ## Use-case UML diagram:
-https://github.com/Nematzhon/AbayaPravda/blob/main/dataset/AbayaPravda-UseCase-UML.png
+![alt text](https://github.com/Nematzhon/AbayaPravda/blob/main/dataset/AbayaPravda-UseCase-UML.png)
