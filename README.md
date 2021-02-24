@@ -6,3 +6,4 @@ Find players easily by their Overall Rating, Potential, Rating, Age, Positions, 
 IOS mobile app , Swift, SQLite
 
 # 3. Project Use-Case diagram and questions over the data
+## General questions:
