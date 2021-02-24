@@ -22,3 +22,6 @@ IOS mobile app , Swift, SQLite
 13)Players that contract ends in 2026
 14)what is age ,height and potential of L. Messi
 15)Top 5 players in Spain?
+
+## Dataset for the project:
+https://github.com/RaulDavrishev/MVST osilardiki siakti jazshi aibar 
