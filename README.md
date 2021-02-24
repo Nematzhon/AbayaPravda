@@ -25,3 +25,6 @@ IOS mobile app , Swift, SQLite
 
 ## Dataset for the project:
 https://github.com/RaulDavrishev/MVST osilardiki siakti jazshi aibar 
+
+## Use-case UML diagram:
+
