@@ -18,10 +18,10 @@ IOS mobile app , Swift, SQLite
 9. Top 5 players between ages 18-25
 10. Top 10 players with potential?
 11. Players which playes in Real Madrid 
-12)Top 5 players at position ST
-13)Players that contract ends in 2026
-14)what is age ,height and potential of L. Messi
-15)Top 5 players in Spain?
+12. Top 5 players at position ST
+13. Players that contract ends in 2026
+14. what is age ,height and potential of L. Messi
+15. Top 5 players in Spain?
 
 ## Dataset for the project:
 https://github.com/RaulDavrishev/MVST osilardiki siakti jazshi aibar 
