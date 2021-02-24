@@ -6,15 +6,15 @@ Find players easily by their Overall Rating, Potential, Rating, Age, Positions, 
 IOS mobile app , Swift, SQLite
 
 ## Why we have chosen SQLite?
-SQLite isn’t the only way to persist data on iOS. Besides Core Data, there are many other alternatives for data persistence including Realm, Couchbase Lite, Firebase and NSCoding.
+SQLite isn’t the only way to persist data on iOS. Besides Core Data, there are many other alternatives for data persistence including Realm, Couchbase Lite, Firebase and NSCoding.  
 SQLite has some advantages:  
 
-Shipped with iOS, it adds no overhead to your app’s bundle.  
-SQLite released version 1.0 in August 2000, so it’s tried and tested.  
-It’s well-maintained with frequent releases.  
-Open-source.  
-It uses a query language that’s familiar to database developers and administrators.  
-Cross-platform.  
+* Shipped with iOS, it adds no overhead to your app’s bundle.  
+* SQLite released version 1.0 in August 2000, so it’s tried and tested.  
+* It’s well-maintained with frequent releases.  
+* Open-source.  
+* It uses a query language that’s familiar to database developers and administrators.  
+* Cross-platform.  
 
 # 3. Project Use-Case diagram and questions over the data
 ## General questions:
