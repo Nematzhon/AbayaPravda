@@ -22,14 +22,13 @@ Cross-platform.|
 # 3. Project Use-Case diagram and questions over the data
 ## General questions:
 1. Top 10 players in fifa 21?  [1.sql](SQL-queries/1.sql)
-
-2. what is age and height of Cristiano Ronaldo
-3. who is the oldest player?
-4. who is the youngest player?
-5. Top 10 players in Argentina?
-6. Players that contract ends in 2021
-7. Top 10 goalkeepers
-8. what is the name and overall point of players in France Ligue 1
+2. what is age and height of Cristiano Ronaldo. 1.sql](SQL-queries/1.sql
+3. who is the oldest player?  1.sql](SQL-queries/1.sql
+4. who is the youngest player?  1.sql](SQL-queries/1.sql
+5. Top 10 players in Argentina?  1.sql](SQL-queries/1.sql
+6. Players that contract ends in 2021  1.sql](SQL-queries/1.sql
+7. Top 10 goalkeepers  1.sql](SQL-queries/1.sql
+8. what is the name and overall point of players in France Ligue 1 1.sql](SQL-queries/1.sql
 9. Top 5 players between ages 18-25
 10. Top 10 players with potential?
 11. Players which playes in Real Madrid 
