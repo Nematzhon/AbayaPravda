@@ -22,20 +22,20 @@ Cross-platform.|
 # 3. Project Use-Case diagram and questions over the data
 ## General questions:
 1. Top 10 players in fifa 21?  [1.sql](SQL-queries/1.sql)
-2. what is age and height of Cristiano Ronaldo. [1.sql](SQL-queries/1.sql)
-3. who is the oldest player?  [1.sql](SQL-queries/1.sql)
-4. who is the youngest player?  [1.sql](SQL-queries/1.sql)
-5. Top 10 players in Argentina?  [1.sql](SQL-queries/1.sql)
-6. Players that contract ends in 2021  [1.sql](SQL-queries/1.sql)
-7. Top 10 goalkeepers  [1.sql](SQL-queries/1.sql)
-8. what is the name and overall point of players in France Ligue 1 [1.sql](SQL-queries/1.sql)
-9. Top 5 players between ages 18-25
-10. Top 10 players with potential?
-11. Players which playes in Real Madrid 
-12. Top 5 players at position ST
-13. Players that contract ends in 2026
-14. what is age ,height and potential of L. Messi
-15. Top 5 players in Spain?
+2. what is age and height of Cristiano Ronaldo. [2.sql](SQL-queries/2.sql)
+3. who is the oldest player?  [3.sql](SQL-queries/3.sql)
+4. who is the youngest player?  [4.sql](SQL-queries/4.sql)
+5. Top 10 players in Argentina?  [5.sql](SQL-queries/5.sql)
+6. Players that contract ends in 2021  [6.sql](SQL-queries/6.sql)
+7. Top 10 goalkeepers  [7.sql](SQL-queries/7.sql)
+8. what is the name and overall point of players in France Ligue 1 [8.sql](SQL-queries/8.sql)
+9. Top 5 players between ages 18-25 [9.sql](SQL-queries/9.sql)
+10. Top 10 players with potential? [10.sql](SQL-queries/10.sql)
+11. Players which playes in Real Madrid [11.sql](SQL-queries/11.sql)
+12. Top 5 players at position ST [12.sql](SQL-queries/12.sql)
+13. Players that contract ends in 2026 [13.sql](SQL-queries/13.sql)
+14. what is age ,height and potential of L. Messi [14.sql](SQL-queries/14.sql)
+15. Top 5 players in Spain? [15.sql](SQL-queries/15.sql)
 
 ## Dataset for the project:
 We took Dataset from kaggle.com
