@@ -107,4 +107,3 @@ CREATE TABLE "teams" (
 	"StartingAverageAge"	REAL,
 	"AllTeamAverageAge"	REAL
 )
-https://lucid.app/lucidchart/3de845bd-42b7-439d-bb8e-7571a41e8755/edit?existing=1&token=1c31cbe31d347ced47655e5f9a8438f233cd607a-eml%3D180107051%2540stu.sdu.edu.kz%26ts%3D1615654668226%26uid%3D140075460&docId=3de845bd-42b7-439d-bb8e-7571a41e8755&shared=true&page=0_0#
