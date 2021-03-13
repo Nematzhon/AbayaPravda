@@ -21,7 +21,7 @@ Cross-platform.|
 
 # 3. Project Use-Case diagram and questions over the data
 ## General questions:
-1. Top 10 players in fifa 21?[1.sql](SQL-queries/1.sql)
+1. Top 10 players in fifa 21?  [1.sql](SQL-queries/1.sql)
 
 2. what is age and height of Cristiano Ronaldo
 3. who is the oldest player?
