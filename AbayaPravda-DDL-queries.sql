@@ -107,3 +107,4 @@ CREATE TABLE "teams" (
 	"StartingAverageAge"	REAL,
 	"AllTeamAverageAge"	REAL
 )
+dataset/AbayaPravda-UseCase-UML.png
