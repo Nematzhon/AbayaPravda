@@ -90,3 +90,20 @@ CREATE TABLE "players" (
 	"RBRating"	INTEGER,
 	"GKRating"	INTEGER
 )
+
+CREATE TABLE "teams" (
+	"ID"	INTEGER,
+	"Name"	TEXT,
+	"League"	TEXT,
+	"LeagueId"	INTEGER,
+	"Overall"	INTEGER,
+	"Attack"	INTEGER,
+	"Midfield"	INTEGER,
+	"Defence"	INTEGER,
+	"TransferBudget"	INTEGER,
+	"DomesticPrestige"	INTEGER,
+	"IntPrestige"	INTEGER,
+	"Players"	INTEGER,
+	"StartingAverageAge"	REAL,
+	"AllTeamAverageAge"	REAL
+)
