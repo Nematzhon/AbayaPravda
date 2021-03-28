@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026B3384260EF5BF0062A595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B3383260EF5BF0062A595 /* AppDelegate.swift */; };
+		026B3386260EF5BF0062A595 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B3385260EF5BF0062A595 /* SceneDelegate.swift */; };
+		026B3388260EF5BF0062A595 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B3387260EF5BF0062A595 /* SearchViewController.swift */; };
+		026B338D260EF5C10062A595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026B338C260EF5C10062A595 /* Assets.xcassets */; };
+		026B3390260EF5C10062A595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026B338E260EF5C10062A595 /* LaunchScreen.storyboard */; };
+		026B33A5260F33E90062A595 /* fifa.db in Resources */ = {isa = PBXBuildFile; fileRef = 026B33A4260F33E90062A595 /* fifa.db */; };
+		026B33A8260FAE800062A595 /* FPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B33A7260FAE800062A595 /* FPButton.swift */; };
+		026B33B3260FBA190062A595 /* FPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B33B2260FBA190062A595 /* FPTextField.swift */; };
+		026B33BD2610B3240062A595 /* SearchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B33BC2610B3240062A595 /* SearchTableView.swift */; };
+		026B33C52610BFB60062A595 /* NationalityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B33C42610BFB60062A595 /* NationalityTableView.swift */; };
+		AB09A6BACC31B28CF647F561 /* Pods_FifaPlayers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0E49720358CB15E65FC0BB /* Pods_FifaPlayers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		026B3380260EF5BF0062A595 /* FifaPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026B3383260EF5BF0062A595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		026B3385260EF5BF0062A595 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		026B3387260EF5BF0062A595 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		026B338C260EF5C10062A595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		026B338F260EF5C10062A595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		026B3391260EF5C10062A595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026B33A4260F33E90062A595 /* fifa.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = fifa.db; path = FifaPlayers/fifa.db; sourceTree = "<group>"; };
+		026B33A7260FAE800062A595 /* FPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPButton.swift; sourceTree = "<group>"; };
+		026B33B2260FBA190062A595 /* FPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPTextField.swift; sourceTree = "<group>"; };
+		026B33BC2610B3240062A595 /* SearchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableView.swift; sourceTree = "<group>"; };
+		026B33C42610BFB60062A595 /* NationalityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityTableView.swift; sourceTree = "<group>"; };
+		4A831B575B7DF6101420B8D6 /* Pods-FifaPlayers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaPlayers.debug.xcconfig"; path = "Target Support Files/Pods-FifaPlayers/Pods-FifaPlayers.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0E49720358CB15E65FC0BB /* Pods_FifaPlayers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FifaPlayers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1EBFBF1FD5D13EA0A41F0B /* Pods-FifaPlayers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaPlayers.release.xcconfig"; path = "Target Support Files/Pods-FifaPlayers/Pods-FifaPlayers.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026B337D260EF5BF0062A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB09A6BACC31B28CF647F561 /* Pods_FifaPlayers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026B3377260EF5BF0062A595 = {
+			isa = PBXGroup;
+			children = (
+				026B33A4260F33E90062A595 /* fifa.db */,
+				026B3382260EF5BF0062A595 /* FifaPlayers */,
+				026B3381260EF5BF0062A595 /* Products */,
+				3331C8AC951B6FA56B7673EC /* Pods */,
+				60EAD377BF24FEFFFD2AE8C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		026B3381260EF5BF0062A595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026B3380260EF5BF0062A595 /* FifaPlayers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026B3382260EF5BF0062A595 /* FifaPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				026B3383260EF5BF0062A595 /* AppDelegate.swift */,
+				026B3385260EF5BF0062A595 /* SceneDelegate.swift */,
+				026B3387260EF5BF0062A595 /* SearchViewController.swift */,
+				026B33C42610BFB60062A595 /* NationalityTableView.swift */,
+				026B33BC2610B3240062A595 /* SearchTableView.swift */,
+				026B338C260EF5C10062A595 /* Assets.xcassets */,
+				026B338E260EF5C10062A595 /* LaunchScreen.storyboard */,
+				026B3391260EF5C10062A595 /* Info.plist */,
+				026B33A7260FAE800062A595 /* FPButton.swift */,
+				026B33B2260FBA190062A595 /* FPTextField.swift */,
+			);
+			path = FifaPlayers;
+			sourceTree = "<group>";
+		};
+		3331C8AC951B6FA56B7673EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A831B575B7DF6101420B8D6 /* Pods-FifaPlayers.debug.xcconfig */,
+				CF1EBFBF1FD5D13EA0A41F0B /* Pods-FifaPlayers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60EAD377BF24FEFFFD2AE8C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E49720358CB15E65FC0BB /* Pods_FifaPlayers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026B337F260EF5BF0062A595 /* FifaPlayers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026B3394260EF5C10062A595 /* Build configuration list for PBXNativeTarget "FifaPlayers" */;
+			buildPhases = (
+				26A6253B8850A18805E3E9D1 /* [CP] Check Pods Manifest.lock */,
+				026B337C260EF5BF0062A595 /* Sources */,
+				026B337D260EF5BF0062A595 /* Frameworks */,
+				026B337E260EF5BF0062A595 /* Resources */,
+				04A8D44BA4F9E5CF7FC0C51D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FifaPlayers;
+			productName = FifaPlayers;
+			productReference = 026B3380260EF5BF0062A595 /* FifaPlayers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026B3378260EF5BF0062A595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					026B337F260EF5BF0062A595 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 026B337B260EF5BF0062A595 /* Build configuration list for PBXProject "FifaPlayers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026B3377260EF5BF0062A595;
+			productRefGroup = 026B3381260EF5BF0062A595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026B337F260EF5BF0062A595 /* FifaPlayers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026B337E260EF5BF0062A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026B33A5260F33E90062A595 /* fifa.db in Resources */,
+				026B3390260EF5C10062A595 /* LaunchScreen.storyboard in Resources */,
+				026B338D260EF5C10062A595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A8D44BA4F9E5CF7FC0C51D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FifaPlayers/Pods-FifaPlayers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FifaPlayers/Pods-FifaPlayers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FifaPlayers/Pods-FifaPlayers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26A6253B8850A18805E3E9D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FifaPlayers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026B337C260EF5BF0062A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026B3388260EF5BF0062A595 /* SearchViewController.swift in Sources */,
+				026B33A8260FAE800062A595 /* FPButton.swift in Sources */,
+				026B33BD2610B3240062A595 /* SearchTableView.swift in Sources */,
+				026B33B3260FBA190062A595 /* FPTextField.swift in Sources */,
+				026B33C52610BFB60062A595 /* NationalityTableView.swift in Sources */,
+				026B3384260EF5BF0062A595 /* AppDelegate.swift in Sources */,
+				026B3386260EF5BF0062A595 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		026B338E260EF5C10062A595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026B338F260EF5C10062A595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026B3392260EF5C10062A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		026B3393260EF5C10062A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		026B3395260EF5C10062A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A831B575B7DF6101420B8D6 /* Pods-FifaPlayers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9R57G39QP;
+				INFOPLIST_FILE = FifaPlayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.FifaPlayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026B3396260EF5C10062A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1EBFBF1FD5D13EA0A41F0B /* Pods-FifaPlayers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9R57G39QP;
+				INFOPLIST_FILE = FifaPlayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.FifaPlayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026B337B260EF5BF0062A595 /* Build configuration list for PBXProject "FifaPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026B3392260EF5C10062A595 /* Debug */,
+				026B3393260EF5C10062A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026B3394260EF5C10062A595 /* Build configuration list for PBXNativeTarget "FifaPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026B3395260EF5C10062A595 /* Debug */,
+				026B3396260EF5C10062A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026B3378260EF5BF0062A595 /* Project object */;
+}
