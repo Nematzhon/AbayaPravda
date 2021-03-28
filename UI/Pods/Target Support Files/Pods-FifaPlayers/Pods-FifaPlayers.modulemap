@@ -1,0 +1,6 @@
+framework module Pods_FifaPlayers {
+  umbrella header "Pods-FifaPlayers-umbrella.h"
+
+  export *
+  module * { export * }
+}
